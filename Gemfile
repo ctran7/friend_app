@@ -48,7 +48,7 @@ end
 
 group :production do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'pg', '~> 0.18.4'
+  gem "postgres-pr"
 end
 
 group :test do
